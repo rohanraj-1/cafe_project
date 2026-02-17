@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy python file into container
 COPY cafe_project.py .
 
-EXPOSE 8080
+EXPOSE 9090
 
 # Command to run the app
 CMD ["python", "cafe_project.py"]
